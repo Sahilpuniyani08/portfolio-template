@@ -23,7 +23,6 @@ export default function AboutSection() {
         heading="Pushing Boundaries Since 2023"
       />
 
-      {/* CONTENT */}
       <motion.div
         variants={stagger}
         initial="hidden"
@@ -34,9 +33,7 @@ export default function AboutSection() {
           "grid-cols-1 md:grid-cols-2 items-start"
         )}
       >
-        {/* LEFT COLUMN */}
         <div className="space-y-11">
-          {/* IMAGE WRAPPER */}
           <motion.div
             variants={fadeUp}
             className={cn(
@@ -62,7 +59,6 @@ export default function AboutSection() {
             </div>
           </motion.div>
 
-          {/* SOCIAL + NAME */}
           <div className="flex items-center justify-between gap-6">
 
             <motion.div variants={stagger} className="flex items-center gap-4">
@@ -76,7 +72,6 @@ export default function AboutSection() {
 
             </motion.div>
 
-            {/* NAME */}
             <motion.div variants={fadeUpSoft} className="text-right">
               <p className=" text-sm text-foreground">Sahil Punyani</p>
               <p className="text-xs text-foreground-subtle">
@@ -86,9 +81,7 @@ export default function AboutSection() {
           </div>
         </div>
 
-        {/* RIGHT COLUMN */}
         <div className="flex flex-col justify-between gap-8 h-full">
-          {/* DESCRIPTION */}
           <motion.p
             variants={fadeUpSoft}
             className="w-full  tracking-tight text-foreground-muted  text-sm leading-snug"
@@ -104,7 +97,6 @@ export default function AboutSection() {
             solutions that balance aesthetics and engineering precision.
           </motion.p>
 
-          {/* EXPERIENCE LIST */}
           <motion.div variants={stagger} className="space-y-4 ">
             {
               experienceData.map((experience, idx) =>{

@@ -29,7 +29,6 @@ export function CtaButton({
         className
       )}
     >
-      {/* ICON */}
       <span
         className={cn(
           "flex items-center justify-center rounded-full border border-current bg-white text-background ",
@@ -40,7 +39,6 @@ export function CtaButton({
         <ArrowRight size={iconSize} />
       </span>
 
-      {/* LABEL */}
       <span
         className={cn(
           "transition-transform duration-300 font-extralight capitalize",

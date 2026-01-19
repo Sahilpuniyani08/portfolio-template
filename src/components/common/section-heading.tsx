@@ -24,7 +24,7 @@ export function SectionHeading({
       whileInView="visible"
       viewport={{ once: true, margin: "-80px" }}
     >
-      {/* Subheading */}
+
       {subheading && (
         <motion.p
           variants={fadeUpSoft}
@@ -34,7 +34,6 @@ export function SectionHeading({
         </motion.p>
       )}
 
-      {/* Heading (per-letter animation) */}
       <h2
         className={cn(
           "mt-2 flex justify-center flex-wrap",

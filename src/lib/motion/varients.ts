@@ -51,7 +51,7 @@ export const fadeUp: Variants = {
 export const marqueeVariants = {
   left: {
     animate: {
-      x: ["0%", "-50%"],
+      x: [0, -1000],
       transition: {
         repeat: Infinity,
         repeatType: "loop",
@@ -62,7 +62,7 @@ export const marqueeVariants = {
   },
   right: {
     animate: {
-      x: ["-50%", "0%"],
+      x: [-1000, 0],
       transition: {
         repeat: Infinity,
         repeatType: "loop",

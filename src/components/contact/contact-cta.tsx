@@ -18,7 +18,7 @@ export default function ContactCTA() {
         viewport={{ once: true, margin: "-120px" }}
         className="mx-auto max-w-5xl px-5 md:px-16 text-center"
       >
-        {/* SUBHEADING */}
+
         <motion.p
           variants={fadeUp}
           className="font-serif italic text-foreground-subtle"
@@ -26,7 +26,6 @@ export default function ContactCTA() {
           / Let’s work together
         </motion.p>
 
-        {/* HEADING */}
         <motion.h2
           variants={fadeUp}
           className="mt-4 text-3xl md:text-5xl font-semibold uppercase text-foreground leading-tight"
@@ -57,7 +56,7 @@ export default function ContactCTA() {
           />
         </motion.h2>
 
-        {/* DESCRIPTION */}
+
         <motion.p
           variants={fadeUp}
           className="mx-auto mt-6 max-w-xl text-sm leading-relaxed"
@@ -67,7 +66,7 @@ export default function ContactCTA() {
           challenges.
         </motion.p>
 
-        {/* CTA */}
+
         <motion.div variants={fadeUp} className="mt-12 flex justify-center">
           <MagneticButton 
 href="https://www.linkedin.com/in/sahil-puniyani-0b9819221/"
@@ -75,7 +74,7 @@ label="Work With Me" />
         </motion.div>
       </motion.div>
 
-      {/* Accent theatre-like light effect at the bottom */}
+
       <motion.div
         variants={topGlowReveal}
         initial="hidden"

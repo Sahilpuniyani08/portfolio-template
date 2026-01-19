@@ -24,7 +24,8 @@ export function SkillMarqueeRow({
   return (
     <div className={cn("relative overflow-hidden", className)}>
       <motion.div
-        className="flex w-max gap-4"
+      style={{ transform: "translate3d(0,0,0)" }}
+        className="flex w-max gap-4 will-change-transform translate-z-0"
         variants={marqueeVariants[direction]}
         animate="animate"
       >

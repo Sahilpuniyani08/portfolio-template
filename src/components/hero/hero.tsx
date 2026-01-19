@@ -8,9 +8,7 @@ import { cn } from "@/lib/utils";
 import {
   fadeUp,
   fadeUpSoft,
-  floatYLoop,
   sectionReveal,
-  topGlowReveal,
 } from "@/lib/motion/varients";
 
 export default function Hero() {
@@ -22,7 +20,6 @@ export default function Hero() {
       className="relative min-h-screen overflow-hidden noise "
       id="home"
     >
-      {/* OUTLINED NAME (BACKGROUND TEXT) */}
 
       <motion.h1
         variants={fadeUp}
@@ -37,7 +34,7 @@ export default function Hero() {
         SAHIL
       </motion.h1>
 
-      {/* CENTER POSTER IMAGE */}
+
       <motion.div
         variants={fadeUpSoft}
         initial="hidden"
@@ -50,7 +47,7 @@ export default function Hero() {
       >
         <motion.div
           className={cn("h-full w-full")}
-          variants={floatYLoop}
+          variants={fadeUpSoft}
           animate="animate"
         >
           <Image
@@ -66,17 +63,17 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* FOREGROUND CONTENT */}
+
       <motion.div
         variants={sectionReveal}
         className="relative z-30 flex min-h-screen w-full  px-5 items-end "
       >
-        {/* BOTTOM CONTENT */}
+
         <motion.div
           variants={sectionReveal}
           className=" relative z-30 items-start w-full flex flex-col md:flex-row  justify-between   pb-10 gap-8 md:px-16 "
         >
-          {/* LEFT PARAGRAPH */}
+
           <div className=" ">
             <motion.p
               variants={fadeUp}
@@ -87,7 +84,7 @@ export default function Hero() {
             </motion.p>
           </div>
 
-          {/* RIGHT PARAGRAPH */}
+
           <div className=" flex flex-col gap-5  ">
             <motion.p
               variants={fadeUpSoft}

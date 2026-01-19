@@ -17,9 +17,9 @@ export default function Footer() {
       viewport={{ once: true, margin: "-120px" }}
       className="relative overflow-hidden"
     >
-      {/* TOP – BLACK */}
-      <div className="relative h-[12vh] md:h-[25vh]  flex items-end justify-center">
-        {/* Filled text */}
+
+      <div className="relative h-[12vh] md:h-[25vh] flex items-end justify-center">
+
         <motion.h1
           variants={fadeUp}
           className={cn(
@@ -31,7 +31,7 @@ export default function Footer() {
           Sahil
         </motion.h1>
 
-        {/* Stroke text */}
+
         <motion.h1
           variants={fadeUp}
           className={cn(
@@ -45,13 +45,13 @@ export default function Footer() {
         </motion.h1>
       </div>
 
-      {/* BOTTOM – ORANGE */}
+
       <motion.div
         variants={sectionReveal}
         className="relative bg-accent noise text-foreground px-6 md:px-16 py-12  "
       >
         <div className=" pt-10 md:pt-20 grid grid-cols-1 md:grid-cols-2  gap-10 md:justify-around  ">
-          {/* LEFT */}
+
           <motion.div variants={fadeUpSoft} className=" space-y-8 md:space-y-6">
             <p className="text-sm uppercase tracking-wide">Connected with me</p>
 
@@ -78,8 +78,7 @@ export default function Footer() {
             </p>
           </motion.div>
 
-          {/* CENTER */}
-          <div className="flex flex-col md:items-end  gap-5 md:gap-2 justify-between">
+           <div className="flex flex-col md:items-end  gap-5 md:gap-2 justify-between">
             <motion.nav
               variants={sectionReveal}
               className="flex gap-5 md:gap-8 text-sm "
@@ -91,7 +90,6 @@ export default function Footer() {
               ))}
             </motion.nav>
 
-            {/* RIGHT */}
             <motion.p
               variants={fadeUpSoft}
               className="flex items-end justify-start md:justify-end text-xs opacity-80"

@@ -13,7 +13,7 @@ export default function ProjectsSection() {
      className="relative pb-28  pt-20 overflow-hidden mask-t-from-90% to-80%"
      id="projects"
      >
-      {/* Decorative Absolute Divs with bg-accent */}
+ 
       <div className="pointer-events-none" aria-hidden="true">
         <motion.div
           variants={moveVarients["leftToRight"]}
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
       />
      
 
-      {/* GRID */}
+    
       <motion.div
         variants={stagger}
         initial="hidden"

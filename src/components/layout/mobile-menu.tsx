@@ -44,12 +44,12 @@ export default function MobileMenu({
               >
                 <div className="h-full w-32 my-auto rounded-full absolute -right-10 top-0 bottom-0 bg-accent/90 blur-2xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out " />
                 <div className="h-full w-12 my-auto rounded-full absolute -left-10 top-0 bottom-0 bg-accent/90 blur-2xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out " />
-                {/* Text */}
+                
                 <span className="text-4xl group-hover:text-accent transition-all duration-300 group-hover:translate-x-3">
                   {label}
                 </span>
 
-                {/* Arrow */}
+               
                 <span
                   className={cn(
                     "flex h-12 w-12 items-center justify-center",
