@@ -55,7 +55,7 @@ export default function AboutSection() {
                   fill
                   className={cn(
                     "object-cover rounded-[16px]",
-                    "rotate-10 md:scale-110 drop-shadow-xl"
+                    "rotate-10 scale-125 md:scale-110 drop-shadow-xl"
                   )}
                 />
               </div>

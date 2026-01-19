@@ -6,6 +6,9 @@ import Header from "@/components/layout/header";
 export const metadata: Metadata = {
   title: "Sahil Puniyani",
   description: "This is my profolio",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
