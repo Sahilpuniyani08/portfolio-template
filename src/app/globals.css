@@ -13,15 +13,17 @@
   --color-background: #0a0a0a; /* main page */
   --color-background-soft: #121212; /* sections */
   --color-background-elevated: #181818; /* cards */
-  --color-background-accent: #ff4500; /* orange strips */
-
+  --color-background-accent: #f6390d; /* orange strips */
+  --color-background-accent-60: #ff7845;
+  --color-background-accent-40: #ffb089;
+  --color-background-accent-20: #ffd1b8;
   /* ---------------- Foregrounds ---------------- */
   --color-foreground: #f5f5f5; /* main text */
   --color-foreground-muted: #a0a0a0; /* paragraphs */
   --color-foreground-subtle: #7a7a7a; /* helper text */
 
   /* ---------------- Accent ---------------- */
-  --color-accent: #ff4500; /* primary CTA */
+  --color-accent: #f6390d; /* primary CTA */
   --color-accent-soft: #ff6020; /* hover */
 
   /* ---------------- Borders ---------------- */
@@ -42,8 +44,14 @@
     font-family: var(--font-sans);
     background-color: rgb(var(--color-background));
     color: rgb(var(--color-foreground));
-    
+
     -webkit-font-smoothing: antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  section {
+    scroll-margin-top: 80px;
   }
 
   h1,
@@ -80,7 +88,20 @@
   background-repeat: repeat;
 
   opacity: 0.1; /* VERY visible */
-  
 
   pointer-events: none;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px var(--color-foreground);
+  color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes hueFloat {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(15deg); }
 }

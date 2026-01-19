@@ -25,7 +25,7 @@ export default function Header() {
       >
         <div className="mx-auto flex h-auto py-3 max-w-7xl items-center justify-between px-6">
           <span className={cn(textStyles.h3, "text-foreground relative")}>
-           Your name
+            Sahil Puniyani
             <div className="absolute -right-4 top-0 flex h-3 w-3 items-center justify-center rounded-full  font-sans text-[10px] border border-white">
               s
             </div>
@@ -55,6 +55,11 @@ export default function Header() {
               )}
             />
           </button>
+            <span className={cn(textStyles.small, "text-foreground relative hidden md:block")}>
+              Say hi &#8722; {" "}
+              <span className="font text-foreground/80 text-[13px]">punyanisahil0001@gmail.com</span>
+            </span>
+          
         </div>
       </header>
 
