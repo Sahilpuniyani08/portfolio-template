@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { playfair, poppins } from "@/typography/fonts";
 import Header from "@/components/layout/header";
+import { Analytics } from '@vercel/analytics/react';
 export const metadata: Metadata = {
   title: "Sahil Puniyani",
   description: "This is my profolio",
@@ -23,6 +24,7 @@ export default function RootLayout({
       >
         <Header />
         <main>{children}</main>
+         <Analytics />
       </body>
     </html>
   );

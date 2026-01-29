@@ -101,7 +101,3 @@ button {
   cursor: pointer;
 }
 
-@keyframes hueFloat {
-  0% { filter: hue-rotate(0deg); }
-  100% { filter: hue-rotate(15deg); }
-}
