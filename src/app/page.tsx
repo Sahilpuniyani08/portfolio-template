@@ -9,7 +9,7 @@ import SkillsMarquee from "@/components/skills-marquee/skills-marquee";
 
 export default function Home() {
   return (
-    <main className="h-screen w-full noise pt-12">
+    <main className="h-screen w-full pt-12">
       <Hero />
       <SkillsMarquee />
       <ProjectsSection />

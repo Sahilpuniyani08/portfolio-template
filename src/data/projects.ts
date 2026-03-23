@@ -1,6 +1,13 @@
-import { dashboard, ecommerce, furniture, moneySplit, portfolio } from "@/assets/images";
+import { dashboard, ecommerce, furniture, makeup, moneySplit } from "@/assets/images";
 export const PROJECTS = [
   
+  {
+    title: "Elegent Landing page",
+    image: makeup,
+    href:"https://mua-by-diksha.vercel.app/",
+    tech: ["Next js", "Framer-Motion"],
+    active: true,
+  },
   {
     title: "GlobalBoard Platform",
     image: ecommerce,

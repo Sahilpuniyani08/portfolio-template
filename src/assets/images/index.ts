@@ -5,6 +5,7 @@ import ecommerce from "./ecommerce.png";
 import posterImg from "./poster-img.png";
 import furniture from "./futniture.png";
 import moneySplit from "./money-split.png";
+import makeup from "./makeup.png";
 
 
-export { dashboard, portfolio, saas, ecommerce, posterImg, furniture, moneySplit };
+export { dashboard, portfolio, saas, ecommerce, posterImg, furniture, moneySplit, makeup };
