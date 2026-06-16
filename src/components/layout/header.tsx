@@ -57,7 +57,7 @@ export default function Header() {
           </button>
             <span className={cn(textStyles.small, "text-foreground relative hidden md:block")}>
               Say hi &#8722; {" "}
-              <span className="font text-foreground/80 text-[13px]">punyanisahil0001@gmail.com</span>
+              <span className="font text-foreground/80 text-[13px]">sahilpuniyani.dev@gmail.com</span>
             </span>
           
         </div>
