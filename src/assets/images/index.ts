@@ -6,6 +6,8 @@ import posterImg from "./poster-img.png";
 import furniture from "./futniture.png";
 import moneySplit from "./money-split.png";
 import makeup from "./makeup.png";
+import chartDashboard from "./chart-dashboard.png";
+import manglamPipes from "./manglam-piles.png";
 
 
-export { dashboard, portfolio, saas, ecommerce, posterImg, furniture, moneySplit, makeup };
+export { dashboard, portfolio, saas, ecommerce, posterImg, furniture, moneySplit, makeup, chartDashboard, manglamPipes };
